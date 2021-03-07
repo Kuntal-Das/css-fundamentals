@@ -31,9 +31,9 @@ a:focus {
 
 
 .container {
-    max-width: 620px;
+    max-width: 550px;
     margin   : 0 auto;
-    padding  : 2.75rem;
+    padding  : 35px;
 }
 
 .header {
