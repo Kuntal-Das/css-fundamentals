@@ -52,6 +52,10 @@ a:focus {
     margin: 25px 0;
 }
 
+.section-image{
+    width: 100%;
+}
+
 .section-dark {
     background-color: #2E354F;
     color           : #fff;
