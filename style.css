@@ -74,6 +74,9 @@ a:hover, a:focus{
     font-weight: 900;
     border: 1px solid transparent;
     text-decoration: none;
+    transition: color 300ms ease-in-out,
+    border 300ms ease,
+    background-color 300ms ease-out;
 }
 
 .btn:hover, .btn:focus{
