@@ -1,0 +1,46 @@
+:root {
+    --HeaderBackgroundColor                   : #2e354f;
+    --UnderlinedTextColorButtonBackgroundColor: #ef5839;
+    --HoveredButtonBackgroundColor            : #d4b44c;
+    --HoveredButtonTextColor                  : #2e354f;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-align : center;
+}
+
+a {
+    color: var(--UnderlinedTextColorButtonBackgroundColor);
+}
+
+a:hover,
+a:focus {
+    color   : var(--HoveredButtonBackgroundColor);
+    /* color: var(--HoveredButtonTextColor); */
+}
+
+.container {
+    max-width: 600px;
+    margin   : 0 auto;
+}
+
+.section-title,
+.title-section {
+    text-transform: uppercase;
+}
+
+.title-section {
+    display         : inline-block;
+    color           : white;
+    padding         : 0 7.5rem;
+    background-color: var(--HeaderBackgroundColor);
+}
+
+.btn {
+    display         : inline-block;
+    text-decoration : none;
+    background-color: var(--UnderlinedTextColorButtonBackgroundColor);
+    color           : white;
+    padding         : .75rem 1.5rem;
+}
